@@ -1,0 +1,190 @@
+@relation dados 
+@attribute cirs {sim,nao}
+@attribute cirn {sim,nao}
+@attribute sexm {sim,nao}
+@attribute sexof {sim,nao}
+@attribute fxmin {sim,nao}
+@attribute fxmax {sim,nao}
+@attribute dsimavcentral {sim,nao}
+@attribute d2avperiferico {sim,nao}
+@attribute d5sne {sim,nao}
+@attribute d6svd {sim,nao}
+@attribute dsim2outros_dreno_de_suc {sim,nao}
+@attribute dsim2outros_dreno_de_black {sim,nao}
+@attribute egsimgrave {sim,nao}
+@attribute eg2regular {sim,nao}
+@attribute eg3bom {sim,nao}
+@attribute o2eupneico {sim,nao}
+@attribute o3taquipneico {sim,nao}
+@attribute o5dispneico {sim,nao}
+@attribute o8mv_presentes {sim,nao}
+@attribute osim5sv_venturi {sim,nao}
+@attribute rcsim_regular {sim,nao}
+@attribute rc2irregular {sim,nao}
+@attribute rc8normocardico {sim,nao}
+@attribute rc9pulso_filiforme {sim,nao}
+@attribute rcsimnao_pulsocheio {sim,nao}
+@attribute rcsim3_pp_regular {sim,nao}
+@attribute rcsim5_pelefria {sim,nao}
+@attribute rcsim6_pele_quente {sim,nao}
+@attribute rcsim9_panorm {sim,nao}
+@attribute rcsim9_paelev {sim,nao}
+@attribute rcsim9_pahiper {sim,nao}
+@attribute rcsim9_paign {sim,nao}
+@attribute n4normal {sim,nao}
+@attribute n5isocricas {sim,nao}
+@attribute n7reativas {sim,nao}
+@attribute n9glasgow {sim,nao}
+@attribute n9glasgowign {sim,nao}
+@attribute h5hidratado {sim,nao}
+@attribute ntsim_abdome_flacido {sim,nao}
+@attribute nt5abdomegloboso {sim,nao}
+@attribute nt6abdomeplano {sim,nao}
+@attribute nt8_rhapresente {sim,nao}
+@attribute ntsim4_sne {sim,nao}
+@attribute ntsim6_gavagem {sim,nao}
+@attribute ntsim8_tipodedieta_vo {sim,nao}
+@attribute ntsim8_tipodedieta_zero {sim,nao}
+@attribute ntsim8_tipodedietasne {sim,nao}
+@attribute ntsim8_tipodedietaign {sim,nao}
+@attribute esim_diureseespontanea {sim,nao}
+@attribute e2_svd {sim,nao}
+@attribute e3_diureseconcentrada {sim,nao}
+@attribute isim_peleintegra {sim,nao}
+@attribute i3_peleaquecida {sim,nao}
+@attribute i4_pelecorada {sim,nao}
+@attribute i5_pelehipocorada {sim,nao}
+@attribute i8_eb_risco_leve {sim,nao}
+@attribute i9_eb_risco_moderado {sim,nao}
+@attribute isimnao_eb_risco_elevado {sim,nao}
+@attribute dor_sim {sim,nao}
+@attribute tsim_temperatura_aumentada {sim,nao}
+@attribute t2_temperatura_normal {sim,nao}
+@attribute t3_temperatura_diminuida {sim,nao}
+@attribute s_sono_preservado {sim,nao}
+@attribute s3_dependencia_autocuidado {sim,nao}
+@attribute s5_dependencia_total {sim,nao}
+@attribute s6_dependencia_parcial {sim,nao}
+@attribute ter3_recupera_do_estado_satisfatoria {sim,nao}
+@attribute ter4_recupera_do_estado_retardada {sim,nao}
+@attribute dedispneia {sim,nao}
+@attribute 2de_ventila_espo_prejudicada {sim,nao}
+@attribute 5de_padr_Respirat_prejudicado {sim,nao}
+@attribute de_intoler_atividade_fisica {sim,nao}
+@attribute decapfis {sim,nao}
+@attribute de_risco_de_sangramento {sim,nao}
+@attribute 32de_orient_tempo_prej {sim,nao}
+@attribute de_peso_exces {sim,nao}
+@attribute de_intoleraliment {sim,nao}
+@attribute de_elimin_urin_red {sim,nao}
+@attribute de_integr_pele_prej {sim,nao}
+@attribute riscoupp {sim,nao}
+@attribute de_dor_aguda {sim,nao}
+@attribute de_tempcorporaldimi {sim,nao}
+@attribute de_dficitautc {sim,nao}
+@attribute de_recir_ret {sim,nao}
+@attribute i_elevarcabeceira {sim,nao}
+@attribute i_monitora_fr_fc {sim,nao}
+@attribute i_monitorar_spo_terapia {sim,nao}
+@attribute i_manter_repouso {sim,nao}
+@attribute i_monitorarecg {sim,nao}
+@attribute i_mondab {sim,nao}
+@attribute i_avaliarc {sim,nao}
+@attribute i_coleta_sangue {sim,nao}
+@attribute i_monitorasinaisinfec {sim,nao}
+@attribute i_tornar_diariamente {sim,nao}
+@attribute i_sng {sim,nao}
+@attribute i_alimentoeoxug {sim,nao}
+@attribute i_hipoglicemia {sim,nao}
+@attribute i_rha {sim,nao}
+@attribute i_elimin_intes {sim,nao}
+@attribute i_elimin_uri {sim,nao}
+@attribute i_distbexiga {sim,nao}
+@attribute i_svd {sim,nao}
+@attribute i_corex {sim,nao}
+@attribute i_hidrata_pele {sim,nao}
+@attribute i_filme_transp {sim,nao}
+@attribute i_avalia_pele {sim,nao}
+@attribute i_posi_conf {sim,nao}
+@attribute i_temposono {sim,nao}
+@attribute i_banho {sim,nao}
+@attribute i_mudadecubito {sim,nao}
+
+@data 
+sim,nao,sim,nao,nao,sim,sim,nao,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,sim,nao,sim,nao,nao,sim,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,sim,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,sim,sim,nao,sim,nao,sim,sim,nao,nao,sim,nao,nao,sim,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,sim,nao,sim,sim,nao,sim,sim,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,sim,nao,sim,sim,nao,nao,sim,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,sim,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,nao,sim,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,nao,nao,sim,sim,nao,sim,sim,nao,sim,sim
+sim,nao,sim,nao,sim,nao,nao,sim,sim,sim,nao,nao,sim,nao,nao,nao,sim,sim,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,sim,sim,nao,nao,nao,sim,sim,sim,sim,sim,sim,sim,sim,sim,sim,nao,nao,nao,nao,sim,sim,sim,nao,sim,sim,nao,nao,sim,sim,nao,nao
+sim,nao,nao,sim,sim,nao,sim,nao,sim,sim,nao,nao,nao,sim,nao,nao,sim,sim,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,sim,sim,sim,nao,sim,nao,sim,nao,sim,sim,nao,nao,nao,sim,sim,sim,sim,sim,sim,sim
+sim,nao,sim,nao,sim,nao,nao,sim,sim,sim,nao,nao,sim,nao,nao,nao,sim,sim,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,sim,sim,nao,nao,nao,sim,sim,sim,sim,sim,sim,sim,sim,sim,sim,nao,nao,nao,nao,sim,sim,sim,nao,sim,sim,nao,nao,sim,sim,nao,nao
+sim,nao,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,sim,sim,nao,nao,sim,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,nao,nao,nao,nao,nao,sim,sim,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,nao,sim,sim,sim,nao,sim,nao,sim,sim,sim,nao,sim,sim,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,sim,nao,sim,sim,sim,sim,sim,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,nao,sim,sim,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,nao,nao,sim,sim,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,sim,sim,nao,nao,sim,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,nao,nao,nao,nao,nao,sim,sim,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,nao,sim,sim,sim,nao,sim,nao,sim,sim,sim,nao,sim,sim,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,sim,sim,nao,sim,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,sim,sim,sim,sim,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,sim,nao,sim,nao,sim,sim,nao,sim,nao,sim,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,nao,sim,nao,sim,sim,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,sim,nao,sim,nao,nao,sim,sim,sim,sim,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,nao,sim,nao,sim,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,sim,nao,nao,sim,sim,nao,sim,nao,sim,nao,sim,sim,nao,nao,nao
+sim,nao,nao,sim,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,sim,sim,nao,sim,nao,sim,sim,nao,nao,sim,nao,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,nao,sim,sim,sim,nao,nao,sim,nao,nao,sim,nao,sim,nao,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,sim,nao,nao,sim,sim,sim,sim,nao,nao,sim,sim,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,sim,sim,nao,sim,nao,sim,nao,nao,nao,sim,sim,nao,nao,nao,sim,nao,nao,sim,sim,nao,nao
+sim,nao,sim,nao,nao,sim,sim,nao,sim,sim,nao,sim,nao,nao,sim,sim,nao,sim,sim,nao,sim,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,sim,sim,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,nao,sim,sim,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,sim,nao,nao,nao,sim,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,sim,sim,nao,sim,nao,sim,sim,sim,nao,sim,sim,nao,sim,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,sim,sim,sim,sim,nao,sim,nao,nao,sim,sim,nao,nao,nao,sim,sim,nao,sim,sim,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,nao,nao,sim,sim,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,nao,sim,sim,sim,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,sim,nao,sim,nao,sim,sim,sim,nao,nao,sim,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,sim,nao,nao,sim,sim,sim,nao,nao,sim,nao,nao,nao,sim,sim,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,sim,sim,nao,nao,nao,sim,sim,sim,sim,sim,sim,sim,sim,sim,sim,nao,nao,nao,nao,sim,sim,sim,nao,sim,sim,nao,nao,sim,sim,nao,nao
+sim,nao,nao,sim,nao,sim,nao,sim,nao,sim,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,sim,nao,sim,sim,sim,nao,sim,sim,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,sim,sim,sim,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,nao,sim,sim,sim,sim,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,sim,sim,sim,nao,sim,sim,nao,sim,nao,sim,nao,sim,sim,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,sim,nao,sim,sim,nao,sim,nao,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,sim,nao,nao,sim,sim,sim,sim,nao,nao,sim,sim,nao,sim,nao,nao,nao,sim,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,sim,sim,sim,sim,nao,nao,nao,nao,sim,sim,nao,sim,sim,sim,nao,nao,sim,sim,nao,nao
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,sim,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,nao,sim,sim,nao,nao,sim,nao,sim,sim,sim,nao,sim,sim,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,sim,sim,sim,sim,nao,sim,nao,sim,nao,sim,nao,nao,nao,sim,sim,nao,sim,sim,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,sim,nao,sim,sim,sim,nao,sim,sim,nao,nao,nao
+sim,nao,nao,sim,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,sim,sim,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,sim,sim,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,sim,nao,sim,sim,sim,nao,sim,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,sim,nao,sim,nao,nao,nao,nao,sim,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,sim,nao,sim,sim,sim,sim
+sim,nao,nao,sim,nao,sim,nao,sim,sim,sim,nao,nao,sim,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,sim,nao,sim,nao,nao,sim,sim,sim,sim,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,sim,nao,nao,sim,nao,sim,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,sim,sim,nao,sim,sim,nao,sim,nao,sim,nao,nao,sim,sim,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,sim,sim,nao,sim,nao,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,sim,nao,nao,sim,sim,sim,sim,nao,nao,sim,sim,sim,sim,nao,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,nao,nao,sim,sim,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,sim,sim,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,nao,sim,nao,sim,nao,nao,sim,sim,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,nao,sim,sim,nao,sim,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,nao,sim,nao,sim,sim,sim,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,nao,sim,sim,nao,nao,sim,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,sim,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,sim,sim,nao,sim,sim,nao,sim,nao,sim,sim,nao,sim,sim,sim,sim
+sim,nao,sim,nao,nao,sim,sim,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,sim,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,nao,nao,sim,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,sim,nao,nao,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,sim,nao,sim,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,sim,sim,nao,nao,sim,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,sim,nao,sim,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,sim,nao,nao,sim,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,sim,nao,sim,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,sim,nao,sim,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,sim,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,sim,nao,nao,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,sim,nao,sim,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,nao,nao,sim,sim,sim,nao,nao,nao,nao,nao,sim,nao,sim,sim,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,nao,sim,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,sim,nao,nao,sim,sim,nao,sim,sim,nao,nao,nao,sim,sim,nao,sim,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,nao,nao,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,sim,nao,sim,nao,sim,sim,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,sim,nao,sim,nao,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,nao,sim,sim,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,sim,nao,sim,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,sim,sim,nao,nao,sim,sim,sim
+sim,nao,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,sim,nao,sim,sim,sim,sim,nao,sim,nao,sim,sim,nao,nao,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,sim,nao,sim,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,sim,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,sim,sim,sim,sim,sim,sim,nao,sim,nao,sim,nao,sim,sim,nao,nao,nao,sim,sim,nao,nao,nao,sim,sim
+sim,nao,sim,nao,nao,sim,sim,nao,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,sim,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,sim,sim,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,nao,sim,nao,sim,sim,nao,nao,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,sim,nao,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,nao,sim,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,sim,nao,nao,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,sim,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,nao,sim,sim,nao,sim,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,sim,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,sim,nao,sim,sim,nao,nao,sim,nao,sim,nao,sim,nao,sim,sim,sim,sim,nao,sim,sim,nao,nao,nao,sim,sim
+sim,nao,nao,sim,nao,sim,sim,nao,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,sim,sim,nao,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,sim,nao,sim,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,sim,nao,sim,sim,nao,nao,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,nao,sim,sim,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,nao,sim,sim,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,nao,sim,sim,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,sim,nao,sim,sim,sim,sim,nao,sim,nao,sim,sim,nao,nao,nao,sim,sim
+sim,nao,sim,nao,nao,sim,sim,sim,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,sim,sim,nao,nao,nao,sim,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,nao,sim,sim,nao,sim,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,sim,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,sim,sim,sim,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,sim,sim,nao,sim,sim,sim,sim,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,nao,sim,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,nao,sim,sim,sim,nao,sim,nao,sim,sim,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,sim,nao,sim,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,nao,sim,sim,nao,sim,nao,nao,sim,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,sim,nao,sim,sim,nao,sim,sim,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,sim,sim,nao,nao,nao,sim,sim,nao,sim,sim,sim,sim
+sim,nao,sim,nao,sim,nao,sim,sim,sim,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,sim,sim,nao,sim,nao,sim,nao,nao,nao,nao,sim,nao,nao,sim,sim,sim,nao,sim,nao,sim,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,sim,sim,nao,nao,nao,sim,sim
+sim,nao,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,sim,sim,nao,sim,nao,sim,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,nao,sim,sim,nao,sim,nao,sim,sim,sim,sim,sim,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,sim,nao,sim,nao,nao,sim,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,sim,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao
+sim,nao,sim,nao,nao,sim,nao,sim,sim,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,sim,sim,sim,nao,sim,sim,nao,nao,sim,sim,nao,nao,nao,nao,sim,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,sim,sim,sim,nao,nao,nao,sim,sim,nao,nao,nao,sim,sim
+sim,nao,sim,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,sim,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,sim,sim,nao,sim,nao,sim,sim,nao,sim,sim,sim,nao,nao,nao,nao,sim,sim,sim,nao,sim,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,sim,nao,nao,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,sim,sim,nao,sim,nao,sim,sim,nao,sim,nao,sim,sim
+sim,nao,nao,sim,sim,nao,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,sim,nao,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,sim,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,sim,nao,nao,nao,nao,sim,nao,sim,sim
+sim,nao,nao,sim,nao,sim,sim,nao,sim,sim,nao,nao,sim,nao,nao,sim,nao,nao,sim,nao,sim,nao,sim,sim,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,sim,nao,sim,sim,sim,nao,nao,sim,nao,nao,sim,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,nao,sim,sim,sim,sim,nao,sim,sim,sim,nao,nao,nao,sim,nao,sim,sim,sim,nao,nao,sim,sim,nao,nao,nao,sim,sim
